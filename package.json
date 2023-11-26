@@ -30,6 +30,7 @@
     "react-spring": "^8.x"
   },
   "devDependencies": {
+    "encoding": "^0.1.13",
     "gh-pages": "^6.1.0"
   }
 }
