@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import dynamic from "next/dynamic";
+import { useSpring, animated } from "react-spring";
 
 const AnimatedNumbers = dynamic(
   () => {
@@ -12,21 +13,18 @@ const AnimatedNumbers = dynamic(
 const achievementsList = [
   {
     metric: "Projects",
-    value: "100",
+    value: "5",
     postfix: "+",
   },
   {
     prefix: "~",
-    metric: "Users",
-    value: "100,000",
-  },
-  {
-    metric: "Awards",
-    value: "7",
+    metric: "Annualized Revenue Saved",
+    value: "400",
+    postfix: "K",
   },
   {
     metric: "Years",
-    value: "5",
+    value: "4",
   },
 ];
 
